@@ -42,3 +42,9 @@ The results of this transliteration are output after CTRL-D.
 ## Copying
 `mpags-cipher` is licensed under the terms of the MIT License.
 Please see the file [`LICENSE`](LICENSE) for full details.
+
+
+## Changes made by Justas Deveikis
+1. Added RunCaesarCipher.cpp and RunCaesarCipher.hpp files.
+2. Added more options when running 'mpags-cipher' from command line: '-k' for providing key value and '--encrypt'/'--decrypt' variable for encryption/decryption of data respectively.
+3. The input string is read from input file and processed data is printed to the output file (Both are specified using command line arguments).
