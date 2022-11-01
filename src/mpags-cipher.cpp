@@ -100,7 +100,6 @@ int main(int argc, char* argv[])
     }
 
     outputText = runCaesarCipher(inputText, key, encrypt);
-    std::cout << outputText << std::endl;
 
     // Warn that output file option not yet implemented
     if (!outputFile.empty()) {
